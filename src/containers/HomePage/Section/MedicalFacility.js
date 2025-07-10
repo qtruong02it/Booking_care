@@ -22,10 +22,10 @@ class MedicalFacility extends Component {
                     <div className='medical-facility-container'>
                         <div className='section-container'>
                             <div className="section-header">
-                                <span className="title-section">Chuyên khoa phổ biến</span>
+                                <span className="title-section">Trung tâm y tế phổ biến</span>
                                 <button className="btn-section">xem thêm</button>
                             </div>
-                            <div className='medical-facility-content'>
+                            <div className='section-slider-content'>
 
                                 <Slider {...settings}>
                                     <div className="medical-facility-body">

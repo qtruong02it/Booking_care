@@ -20,12 +20,11 @@
         &::before {
             font-size: 20px;
             font-weight: bold;
-            color: #000;
         }
     }
 
     .slick-prev {
-        left: -18px;
+        left: 15px;
 
         &::before {
             content: '←';
@@ -34,7 +33,7 @@
     }
 
     .slick-next {
-        right: -18px;
+        right: 15px;
 
         &::before {
             content: '→';
@@ -43,8 +42,10 @@
     }
 
     .slick-slide {
-        padding: 10px;
+        padding: 20px;
+        box-sizing: border-box;
     }
+
 
     .section-header {
         display: flex;
@@ -76,70 +77,10 @@
         }
     }
 
-    .section-specialty {
-        padding: 40px 0;
-        background: #fff;
+    .slider-content {
+        margin: 0 10px;
 
-        .section-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 50px;
-            margin-bottom: 20px;
-
-            .title-section {
-                font-size: 22px;
-                font-weight: 600;
-                color: #333;
-            }
-
-            .btn-section {
-                background-color: transparent;
-                border: 1px solid #999;
-                border-radius: 4px;
-                padding: 5px 12px;
-                font-size: 14px;
-                cursor: pointer;
-                color: #007bff;
-                transition: all 0.3s;
-
-                &:hover {
-                    background-color: #007bff;
-                    color: white;
-                }
-            }
-        }
-
-        .medical-facility-content,
-        .specialty-content {
-            margin: 0 10px;
-
-            .slick-slide {
-                padding: 35px;
-                box-sizing: border-box;
-            }
-
-            .slick-prev {
-                left: 10px;
-
-                &::before {
-                    content: '←';
-                    color: green;
-                }
-            }
-
-            .slick-next {
-                right: 10px;
-
-                &::before {
-                    content: '→';
-                    color: blue;
-                }
-            }
-        }
-
-        .medical-facility-body,
-        .specialty-body {
+        .slider-item-body {
             display: flex !important;
             flex-direction: column;
             align-items: center;
@@ -157,11 +98,11 @@
             }
 
             img {
-                width: 100px;
-                height: 100px;
-                object-fit: cover;
-                border-radius: 50%;
-                margin-bottom: 10px;
+                width: 100%;
+                height: 140px;
+                object-fit: contain;
+                border-radius: 8px;
+                margin-bottom: 12px;
             }
 
             h3 {
@@ -173,5 +114,4 @@
             }
         }
     }
-
 }

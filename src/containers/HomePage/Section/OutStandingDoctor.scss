@@ -1,0 +1,82 @@
+.section-out-standing-doctor {
+    padding: 40px 0;
+    background: #f8f9fa;
+
+    .out-standing-doctor-container {
+        .out-standing-doctor-content {
+            margin: 0 10px;
+
+            .slick-slide {
+                padding: 35px;
+                box-sizing: border-box;
+            }
+
+            .slick-prev {
+                left: 10px;
+
+                &::before {
+                    content: '←';
+                    color: green;
+                }
+            }
+
+            .slick-next {
+                right: 10px;
+
+                &::before {
+                    content: '→';
+                    color: blue;
+                }
+            }
+
+        }
+
+
+        .out-standing-doctor-body {
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            min-height: 250px;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            }
+
+            img {
+                width: 170px;
+                height: 170px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-bottom: 12px;
+                display: block;
+                border: 2px solid #128b81;
+                object-position: center top;
+            }
+
+            p {
+
+                font-style: italic;
+                font-size: 16px;
+                color: #000000;
+                margin: 4px 0;
+
+            }
+
+            h3 {
+                font-size: 15px;
+                text-align: center;
+                color: #333;
+                font-weight: 500;
+                margin: 0;
+            }
+
+        }
+    }
+}

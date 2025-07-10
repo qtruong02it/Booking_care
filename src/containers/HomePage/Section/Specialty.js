@@ -28,7 +28,7 @@ class Specialty extends Component {
                                 <span className="title-section">Chuyên khoa phổ biến</span>
                                 <button className="btn-section">xem thêm</button>
                             </div>
-                            <div className='specialty-content'>
+                            <div className='section-slider-content'>
 
                                 <Slider {...settings}>
                                     <div className="specialty-body">
