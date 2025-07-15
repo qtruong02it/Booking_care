@@ -8,7 +8,7 @@
 ---
 
 ## 🚀 Công nghệ sử dụng
-
+- **Backend**: [Node.js (Xem source)](https://github.com/qtruong02it/Nodejs)
 - **Frontend**: ReactJS (CRA)
 - **Quản lý trạng thái**: Redux
 - **Routing**: React Router
